@@ -26,6 +26,6 @@ This script allows to put the Rpi on time, create a variable to set its IP addre
 
 "@reboot root sh /etc/'path of the lauch script.sh'"
 
--The first step of our configuration for Rpi's is complete.
+- The first step of our configuration for Rpi's is complete.
 
 
