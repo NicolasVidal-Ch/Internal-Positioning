@@ -17,10 +17,10 @@ exemple:
 
 - Integrate in the Raspberry pi the following script in the folder "/etc".
 
-Link to the install script:
+Link to the "launch" script:
 https://github.com/NicolasVidal-Ch/launch
 
-This script allows to put the Rpi on time, create a variable to set its IP address, and download the second part of the installation.
+This script allows to put the Rpi on time, install all the necessary applications, SSH configuration, Rsyslog configuration and kill the Cron.
 
 - Now go to "/etc/crontab" with a text editor (nano, vim or other) and enter the following command:
 
@@ -30,6 +30,6 @@ This script allows to put the Rpi on time, create a variable to set its IP addre
 
 Step 2:
 
-- 
+
 
 
