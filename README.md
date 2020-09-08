@@ -1,6 +1,6 @@
 # Internal-Positioning
 
-A project for our TSSR / IT training:
+A project for our TSSR / IT training course:
 
 Setting up of a Internal Positioning project with 4 Raspberry Pi (model 3 b+), 1 Linux server (debian 10), which will also be a log server and 4 WiFi usb adapter (brand: Realtek, model: RTL8812b).
 
