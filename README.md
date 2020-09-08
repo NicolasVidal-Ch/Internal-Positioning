@@ -11,7 +11,8 @@ https://downloads.raspberrypi.org/raspios_lite_armhf_latest
 exemple:
 "dd if='source of the OS' of='path of the SD card'".
 
-- Integrate in the Raspberry pi the following script in the folder "/etc":
+- Integrate in the Raspberry pi the following script in the folder "/etc".
+Link to the install script:
 https://github.com/NicolasVidal-Ch/launch
 This script allows to put the Rpi on time, create a variable to set its IP address, and download the second part of the installation.
 
