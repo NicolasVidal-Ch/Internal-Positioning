@@ -3,9 +3,8 @@
 A project for our TSSR / IT training:
 Setting up of a Internal Positioning project with 4 Raspberry Pi (model 3 b+), 1 Linux server (debian 10), which will also be a log server and 4 WiFi usb adapter (brand: Realtek, model: RTL8812b).
 
+Step 1:
 We will create an image of the Rpi OS and then clone it for each Rpi.
-
-Step:
 
 - Flash the OS of the Raspberry Pi to SD card whith the "dd if" command.
 
@@ -27,5 +26,9 @@ This script allows to put the Rpi on time, create a variable to set its IP addre
 "@reboot root sh /etc/'path of the lauch script.sh'"
 
 - The first step of our configuration for Rpi's is complete.
+
+Step 2:
+
+- 
 
 
