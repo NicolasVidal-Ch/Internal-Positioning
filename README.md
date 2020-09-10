@@ -24,7 +24,7 @@ This script allows to put the Rpi on time, install all the necessary application
 
 - Now go to "/etc/crontab" with a text editor (nano, vim or other) and enter the following command:
 
-"@reboot root sh /etc/'path of the lauch script.sh'"
+"@reboot root sh /etc/'path of the launch script.sh'"
 
 - The first step of our configuration for Rpi's is complete.
 
