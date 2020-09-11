@@ -1,0 +1,25 @@
+ hosts: Rpi-pool
+  tasks:
+
+    - name: Téléchargement du Script de driver
+      get_url:
+        url: https://github.com/NicolasVidal-Ch/Driver-Injection/archive/drion.tar.gz
+        dest: /etc/ansible/
+
+    - name: Extraction du Script de driver
+      unarchive:
+        src: /etc/ansible/Driver-Injection-drion.tar.gz
+        copy: no
+        dest: /etc/ansible
+        group: root
+        mode: 0777
+
+    - name: Attribution des droits
+      file:
+         path: /etc/ansible/Driver-Injection-drion/Drion.sh
+         group: root
+         owner: root
+         mode: 0777
+
+    - name: Lancement du script
+      command: sh /etc/ansible/Driver-Injection-drion/Drion.sh
