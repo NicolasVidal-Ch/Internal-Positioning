@@ -20,7 +20,7 @@ exemple:
 Link to the "launch" script:
 https://github.com/NicolasVidal-Ch/launch
 
-This script allows to put the Rpi on time, install all the necessary applications, SSH configuration, Rsyslog configuration and kill the Cron.
+This script allows you to put the Rpi on time with NTP deamon, you will install all the necessary applications, SSH configuration, Rsyslog configuration, create and share the "hosts" folder between the server and the RPi, to retrieve the ip address of the RPI, with the NFS protocol, change password and suit keyboard settings to your language, delete the line in the "crontab" so it will not reboot on the initial "launch" script, remove the script "launch.sh" with a "Cron" and reboot.
 
 - Now go to "/etc/crontab" with a text editor (nano, vim or other) and enter the following command:
 
@@ -30,6 +30,6 @@ This script allows to put the Rpi on time, install all the necessary application
 
 Step 2:
 
-
+- 
 
 
