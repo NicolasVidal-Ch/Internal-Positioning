@@ -30,6 +30,6 @@ This script allows you to put the Rpi on time with NTP deamon, you will install 
 
 Step 2:
 
-- 
+-   
 
 
